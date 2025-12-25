@@ -1,0 +1,39 @@
+radio/
+ ├── playlist.m3u
+ ├── README.md
+ └── musicas/
+      ├── musica1.mp3
+      ├── musica2.mp3
+      └── musica3.mp3
+
+playlist.m3u
+
+m3u
+
+#EXTM3U
+#EXTINF:-1,Brega%20-%20Bem%20Querer
+http://som.brasilplaygames.com.br/som/Bem%20querer.mp3
+
+#EXTINF:-1,Brega%20-%20Saudade
+http://seusite.com/musicas/saudade.mp3
+
+#EXTINF:-1,Brega%20-%20Coração%20Partido
+http://seusite.com/musicas/coracao.mp3
+
+README.md
+
+md
+
+# 📻 Rádio JBL – GitHub
+
+Playlist online compatível com JBL (Android).
+
+## 🔗 Link da playlist
+https://iagoh-eng.github.io/radio/playlist.m3u
+
+## ➕ Como adicionar música
+1. Envie o `.mp3` para a pasta `musicas/`
+2. Copie 2 linhas no `playlist.m3u`
+3. Commit
+
+Pronto 🎵
